@@ -3,6 +3,7 @@ languageCode = "en-gb"
 title = "gobbe.NET"
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
+enableRobotsTXT = true
 
 paginate = 20
 canonifyurls = true
