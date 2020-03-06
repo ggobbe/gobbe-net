@@ -2,6 +2,7 @@
 title: "Using the REST api in a SharePoint-hosted App"
 date: 2013-05-25T16:00:41+01:00
 draft: false
+categories: ["SharePoint"]
 tags: ["rest", "sharepoint-2013", "sharepoint-apps"]
 ---
 
@@ -9,7 +10,9 @@ This week-end, I’ve written a small “static class” in JavaScript (it works
 
 <!--more-->
 
-{{< highlight javascript >}}
+`$ cat generic-list.js`
+
+```js
 'use strict';
 
 var gobbe = window.gobbe || {};
@@ -119,13 +122,15 @@ gobbe.GenericList = function() {
         removeItem: removeItem,
     }
 }();
-{{< / highlight >}}
+```
 
 Using the code above, it is now easier for me to create/read/update/delete items in any lists.
 
 You’ll find a few samples below :
 
-{{< highlight javascript >}}
+`$ cat generic-list-examples.js`
+
+```js
 // List name
 var list = "Students";
 
@@ -175,6 +180,6 @@ gobbe.GenericList.updateItem(list, 1,
 gobbe.GenericList.removeItem(list, 1, function() {
     alert("Item deleted.");
 });
-{{< / highlight >}}
+```
 
 I know there is still place for improvement but it’s a start !
