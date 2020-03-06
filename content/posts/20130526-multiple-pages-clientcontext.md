@@ -1,5 +1,5 @@
 ---
-title: "Working with the ClientContext through multiple pages in a SharePoint cloud-hosted App"
+title: "ClientContext Helper for SharePoint cloud-hosted Apps"
 date: 2013-05-26T11:32:13+01:00
 draft: false
 categories: ["SharePoint"]
