@@ -1,4 +1,4 @@
-baseURL = "http://gobbe.net/"
+baseURL = "https://gobbe.net/"
 languageCode = "en-gb"
 title = "gobbe.NET"
 theme = "hugo-coder"
