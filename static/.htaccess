@@ -22,6 +22,7 @@ Redirect 301 /2013/06/07/building-an-asp-net-mvc-remote-web-in-a-sharepoint-clou
 Redirect 301 /2013/06/13/use-the-asp-net-membership-in-a-signalr-chat-with-an-asp-net-mvc-4-application/ /posts/20130613-asp-net-chat-with-signalr-and-membership/
 Redirect 301 /2014/07/12/sharepoint-list-dao-with-typescript/ /posts/20140712-sharepoint-typescript-list-dao/
 
+# Redirect deleted posts URLs to blog
 Redirect 301 /2016/10/02/github-gist-now-displayed-correctly-when-embedded-into-wordpress-with-the-theme-twenty-sixteen/ /posts/
 Redirect 301 /posts/02/github-gist-now-displayed-correctly-when-embedded-into-wordpress-with-the-theme-twenty-sixteen/ /posts/
 
@@ -41,7 +42,6 @@ Redirect 301 /tag/sharepoint-apps/ /tags/sharepoint-apps/
 Redirect 301 /tag/sharepoint-2013/ /tags/sharepoint-2013/
 Redirect 301 /tag/aspnet-mvc/ /tags/aspnet-mvc/
 
-
 # Redirect other pages
 Redirect 301 /about/ /
 Redirect 301 /author/ggobbe/ /
@@ -55,3 +55,6 @@ Redirect 301 /tag/github/ /posts/
 Redirect 301 /tag/css/ /posts/
 Redirect 301 /tag/wordpress/ /posts/
 Redirect 301 /posts/05/ /posts/
+Redirect 301 /posts/06/ /posts/
+Redirect 301 /comments/feed/ /posts/
+Redirect 301 /feed/ /posts/
