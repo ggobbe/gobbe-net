@@ -13,3 +13,11 @@ RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
 # Remove www.
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^/?(.*) https://gobbe.net%{REQUEST_URI} [L,R=301]
+
+# Redirect old URLs to new ones
+Redirect 301 /2013/05/25/using-the-rest-api-in-a-sharepoint-hosted-app-2/ /posts/20130525-sharepoint-rest-api/
+Redirect 301 /2013/05/26/working-with-the-clientcontext-through-multiple-pages-in-a-sharepoint-cloud-hosted-app/ /posts/20130526-sharepoint-multiple-pages-clientcontext/
+Redirect 301 /2013/06/06/use-database-tables-as-sharepoint-lists-in-a-sharepoint-hosted-app-with-a-bcs-business-connectivity-service/ /posts/20130606-sharepoint-business-connectivity-service/
+Redirect 301 /2013/06/07/building-an-asp-net-mvc-remote-web-in-a-sharepoint-cloud-hosted-app/ /posts/20130607-sharepoint-asp-net-cloud-hosted-app/
+Redirect 301 /2013/06/13/use-the-asp-net-membership-in-a-signalr-chat-with-an-asp-net-mvc-4-application/ /posts/20130613-asp-net-chat-with-signalr-and-membership/
+Redirect 301 /2014/07/12/sharepoint-list-dao-with-typescript/ /posts/20140712-sharepoint-typescript-list-dao/
